@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero,
+.footer {
+	background-color: #1f2937;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	padding: 1% 15% 10%;
+	gap: 100px;
+	height: 350px;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	gap: 25px;
+}
+
+.intro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.signup {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.signup button {
+	background-color: #3882f6;
+	color: #f9faf8;
+	border: none;
+}
+
+.quote {
+	background-color: #e5e7eb;
+}
+
+.logo {
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.links {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.subtext,
+.links a {
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+button {
+	border-radius: 8px;
+	padding: 8px 25px;
+	font-weight: 700;
+	font-size: 16px;
+	width: 125px;
+}
+
+.placeholder {
+	background-color: #6d747d;
+	color: #e5e7eb;
+	height: 220px;
+	max-width: 50%;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner button {
+	background-color: #3882f6; 
+	color: #f9faf8;
+	border: 2px #f9faf8 solid;
+}
+
+.banner {
+	background-color: #3882f6;
+}
+
+.information {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 330px;
+	padding: 5% 15% 10%;
+	gap: 30px;
+}
+
+#info {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+}
+
+.cards {
+	display: flex;
+	gap: 50px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+}
+
+.box {
+	margin-bottom: 10px;
+	border: 4px #3882f6 solid;
+	border-radius: 15px;
+	height: 150px;
+	width: 150px;
+}
+
+.card p {
+	color: #1f2937;
+	text-align: center;
+}

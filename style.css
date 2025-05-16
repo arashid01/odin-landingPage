@@ -54,10 +54,6 @@ body {
 	border: none;
 }
 
-.quote {
-	background-color: #e5e7eb;
-}
-
 .logo {
 	color: #f9faf8;
 	font-size: 24px;
@@ -103,16 +99,6 @@ button {
 	align-items: center;
 }
 
-.banner button {
-	background-color: #3882f6; 
-	color: #f9faf8;
-	border: 2px #f9faf8 solid;
-}
-
-.banner {
-	background-color: #3882f6;
-}
-
 .information {
 	display: flex;
 	flex-direction: column;
@@ -152,4 +138,70 @@ button {
 .card p {
 	color: #1f2937;
 	text-align: center;
+}
+
+.quote-container {
+	background-color: #e5e7eb;
+	padding: 5% 15% 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	color: #1f2937;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+
+#quote {
+	text-align: justify;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 36px;
+}
+
+#thor {
+	text-wrap: nowrap;
+	align-self: flex-end;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.banner-container {
+	padding: 5% 15% 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner {
+	background-color: #3882f6;
+	border-radius: 8px;
+	padding: 50px 100px;
+	width: 80%;
+	color: #f9faf8;
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner button {
+	background-color: #3882f6; 
+	color: #f9faf8;
+	border: 2px #f9faf8 solid;
+	flex-grow: 0;
+}
+
+.banner-one {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.footer {
+	padding: 40px;
+	text-align: center;
+	color: #e5e7eb;
 }
